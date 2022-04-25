@@ -1,3 +1,6 @@
+body {
+  padding: 0.4%;
+}
 .tab-button-container {
   display: flex;
 }
