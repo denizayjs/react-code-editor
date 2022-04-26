@@ -1,6 +1,24 @@
-body {
-  padding: 0.4%;
-}
 .tab-button-container {
   display: flex;
+}
+
+.app {
+  display: flex;
+}
+
+.right-side {
+  display: table;
+  padding: 10px;
+  flex: 3;
+}
+.left-side {
+  flex: 1;
+}
+
+.code-mirror-wrapper {
+  width: 400px;
+}
+.frame-box {
+  min-height: 100vh;
+  height: auto;
 }

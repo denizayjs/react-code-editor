@@ -8,6 +8,9 @@ import "codemirror/theme/material.css";
 import "codemirror/theme/mdn-like.css";
 import "codemirror/theme/the-matrix.css";
 import "codemirror/theme/night.css";
+import "codemirror/addon/edit/closetag";
+import "codemirror/addon/edit/closebrackets";
+
 import { Controlled as ControlledEditorComponent } from "react-codemirror2";
 
 const Editor = ({ language, value, setEditorState }) => {
@@ -33,7 +36,6 @@ const Editor = ({ language, value, setEditorState }) => {
           ))}
         </select>
       </div>
-
       <ControlledEditorComponent
         onBeforeChange={handleChange}
         value={value}
@@ -44,6 +46,8 @@ const Editor = ({ language, value, setEditorState }) => {
           lint: true,
           lineNumbers: true,
           theme: theme,
+          autoCloseTags: true,
+          autoCloseBrackets: true,
         }}
       />
     </div>
