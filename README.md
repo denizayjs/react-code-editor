@@ -1,3 +1,7 @@
+Online code editor project with React.js and CodeMirror
+![image](https://user-images.githubusercontent.com/29174043/165300772-2aa69cde-eaac-46c0-a55e-189e0cb3d008.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
